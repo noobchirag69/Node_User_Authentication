@@ -1,0 +1,27 @@
+{
+  "name": "node_user_authentication",
+  "version": "1.0.0",
+  "description": "A simple user authentication system using Node and Express.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noobchirag69/Node_User_Authentication.git"
+  },
+  "author": "Chirag Chakraborty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noobchirag69/Node_User_Authentication/issues"
+  },
+  "homepage": "https://github.com/noobchirag69/Node_User_Authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
